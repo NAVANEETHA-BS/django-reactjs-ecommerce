@@ -67,7 +67,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+# H:\django-reactjs-assignment\django-reactjs\frontend\reactjsauth\public
 ROOT_URLCONF = 'config.urls'
 
 APPS_DIR = BASE_DIR / "djrb"
@@ -80,7 +80,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         # 'DIRS': [APPS_DIR / "templates"],
-        'DIRS': [PUBLIC_DIR / "react/djrb-gui/public"],
+        'DIRS': [PUBLIC_DIR / "frontend/reactjsauth/public"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
